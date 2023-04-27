@@ -1,0 +1,33 @@
+.tag {
+    width: 150px;
+    height: 40px;
+ 
+    border-radius: 25px;
+    border: none;
+     
+    text-align: center;
+    color: var(--baby-powder);
+    font-family: 'DM Sans';
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.defaultTag{
+    background-color: var(--light-gray);
+}
+
+.cuisineTag{
+    background-color: var(--sun-glow);
+}
+
+.priceTag{
+    background-color: var(--orange);
+}
+
+.allergenTag{
+    background-color: var(--indian-red);
+}    
+
+.mealTag{
+    background-color: var(--fuchsia-rose);
+}

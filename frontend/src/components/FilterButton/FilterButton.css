@@ -1,0 +1,43 @@
+.defaultFilterBtn {
+    width: 100%;
+    min-width: 100px;
+    height: 100%;
+
+    background-color: white;
+
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px lightgray;
+    border: none;
+    padding: 0;
+    margin: 0;
+
+    text-align: center;
+    color: black;
+    font-family: 'DM Sans';
+    font-size: 15px;
+    font-weight: 500;
+
+    cursor: pointer;
+}
+
+.onFilterBtn {
+    width: 100%;
+    min-width: 100px;
+    height: 100%;
+
+    background-image: linear-gradient(to right bottom, var(--sun-glow), var(--orange), var(--indian-red), var(--fuchsia-rose));
+
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px lightgray;
+    border: none;
+    padding: 0;
+    margin: 0;
+
+    text-align: center;
+    color: white;
+    font-family: 'DM Sans';
+    font-size: 15px;
+    font-weight: 500;
+
+    cursor: pointer;
+}

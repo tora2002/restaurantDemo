@@ -1,0 +1,160 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.swipe-beige-card{
+    display: flex;
+    width: 60%;
+    height: 75%;
+    background-color: var(--baby-powder);
+    align-items: center;
+    justify-content: center;
+    background-image: none;
+    box-shadow: 1px 2px 9px lightgray;
+}
+
+.swipe-page-layout{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.swipeCardContent {
+    width: 80%;
+    height: 90%;
+}
+
+.swipeCardContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: top;
+}
+
+.swipeCardText {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.heading {
+    margin-top: 0;
+    margin-bottom: 0px;
+    color: var(--orange);
+    font-size: 500%;
+    font-weight: 500;
+}
+
+.subheading {
+    margin-top: 0px;
+    color: black;
+    font-size: 100%;
+    font-weight: 400;
+}
+
+.buttonContainer {
+    width: 55%;
+    height: 60px;
+    margin-top: 15px;
+}
+
+.buttonText {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.cardyContainer{
+    width: 200px;
+    height: 150px;
+}
+
+.swiper{
+   
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 80%;
+    
+    border-radius: 20px;
+    
+
+}
+
+.swipeCard{
+    border: 10px red;
+    display: flex;
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 2px 9px lightgray;
+    border-radius: 20px;
+    border-width: 2px;
+    border-style: solid;
+    flex-direction: column;
+    gap: 3%;
+    padding: 3%;
+
+
+}
+.topHalf{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    gap: 3%;
+    /* margin: 3%;
+    padding-left: 5%; */
+}
+.bottomHalf{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 100%;
+    /* padding-left: 5%; */
+}
+
+.imageBox{
+    display: flex;
+    width: 65%;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5%;
+}
+.tagBox{
+    display: flex;
+    width: 35%;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 5%;
+}
+.menuName{
+    color: var(--vista-blue);
+    margin-right: 4%;
+}
+.littleDiv{
+    display: flex;
+    height: 26%;
+
+}
+.location{
+    color: var(--light-gray);
+    padding-top: 3%;
+}
+.gradientLine{
+    
+        background:linear-gradient(to bottom right, #ffcf42, #EC6F34, #E24C52, #C6427B);
+        color: slateblue;
+        height: "5px";
+        border: "none";
+        width: 100%;
+}
+

@@ -1,0 +1,22 @@
+:root {
+    --vista-blue: #8C9BE4; 
+    --steel-pink: #C537E4;
+    --fuchsia-rose: #C6427B;
+    --indian-red: #E24C52;
+    --orange: #EC6F34;
+    --sun-glow: #FFD042;
+    --baby-powder: #FFFBF7;
+    --light-gray: #D9D9D9;
+}
+
+body {
+    background-image: url('./assets/tastebuds-background.png');
+    background-size: cover;
+    background-position: center center;  
+
+    font-family: 'DM Sans';
+}
+
+span {
+    color: var(--fuchsia-rose);
+}

@@ -1,0 +1,43 @@
+.parentButton{
+    background-image: linear-gradient(to right bottom, var(--sun-glow), var(--orange), var(--indian-red), var(--fuchsia-rose));
+    filter: grayscale(10%);
+    
+    
+    height: 100%;
+    width: 100%;
+ 
+    border-radius: 20px;
+    border: none;
+    
+    
+    text-align: center;
+    color: var(--baby-powder);
+    font-family: 'DM Sans';
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.parentButton:hover {
+    cursor: pointer;
+    animation: hoverAnimation 0.5s; 
+    background-image: linear-gradient(to right bottom, var(--indian-red), var(--fuchsia-rose), var(--orange), var(--sun-glow));
+}
+
+@keyframes hoverAnimation {
+    0% {
+        background-image: linear-gradient(to right bottom, var(--sun-glow), var(--orange), var(--indian-red), var(--fuchsia-rose));
+    }
+    25% {
+        background-image: linear-gradient(to right bottom, var(--orange), var(--indian-red), var(--fuchsia-rose));
+    }
+    50% {
+        background-image: linear-gradient(to right bottom, var(--indian-red), var(--fuchsia-rose));
+
+    }
+    75% {
+        background-image: linear-gradient(to right bottom, var(--indian-red), var(--fuchsia-rose), var(--orange));
+    }
+    100% {
+        background-image: linear-gradient(to right bottom, var(--indian-red), var(--fuchsia-rose), var(--orange), var(--sun-glow));
+    }
+}
